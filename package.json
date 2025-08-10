@@ -1,20 +1,18 @@
 {
   "name": "node-hello",
   "version": "1.0.0",
-  "description": "",
+  "description": "A minimal Node.js Hello World app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+    "url": "git+https://github.com/sakaul88/node-hello.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
-  },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "engines": {
+    "node": ">=18"
+  }
 }
+
