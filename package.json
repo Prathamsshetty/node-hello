@@ -1,7 +1,7 @@
 {
   "name": "node-hello",
   "version": "1.0.0",
-  "description": "A minimal Node.js Hello World app",
+  "description": "A minimal Node.js Hello World app with intentional vulnerabilities",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,6 +13,12 @@
   "license": "ISC",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "lodash": "4.17.19", 
+    "express": "4.17.0", 
+    "debug": "2.6.8",
+    "minimist": "1.2.0"
   }
 }
 
